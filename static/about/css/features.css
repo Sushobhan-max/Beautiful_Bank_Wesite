@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #f5f6fa;
+}
+.sec1 img{
+    height: 1013px;
+    margin: auto;
+    display: block;
+}
+.sec2 img{
+    height: 380px;
+    display: block;
+    
+}

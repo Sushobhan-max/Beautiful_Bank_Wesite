@@ -1,0 +1,20 @@
+doctype html
+html 
+    head 
+        title PDSD BANK || Log In
+        link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+        style 
+                include ../static/about/css/signup.css
+    body 
+
+        div.box 
+            form(action="#" class='form') 
+                h2 Sign Up Here
+                input(type="text" name="fullName" id="fullName" placeholder="Enter your full name")
+                input(type="text" name="username" id="user" placeholder="Enter your username")
+                input(type="email" name="email" id="email" placeholder="Enter your email")
+                textarea(name="address", cols="30", rows="10" placeholder="Enter your address")
+                input(type="password" name="password" id="password" placeholder="Enter your password")
+                button.btn Sign Up
+                p Already have an account ? 
+                    a(href="#") Log In

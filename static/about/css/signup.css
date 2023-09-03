@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('static/about/bg.jpg') no-repeat center center/cover;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blue(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10%;
+}
+.form h2{
+    border-bottom: 2px solid #ffffff;
+    padding: 6px 0px;
+    width: 46%;
+    margin: 40px auto;
+    color: rgb(255 255 255);
+    border-radius: 5px;
+}
+p, a {
+    color: white;
+    padding-bottom: 13px;
+}
+a:hover{
+    color: rgb(212, 212, 212);
+}
+.form input{
+    padding: 12px;
+    margin: 7px auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: none;
+    width: 70%;
+    color: white;
+}
+.form textarea{
+    padding: 12px;
+    margin: 7px auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: none;
+    width: 70%;
+    height: 45px;
+    color: white;
+    height: 17px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    height: 100vh;
+}
+.btn {
+    padding: 7px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #3b2bff, #21e9eb);
+    border: none;
+    font-size: 15px;
+    color: white;
+    width: 23%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #2417ab, #15a1a3);
+}
+.form ::placeholder{
+    color: white;
+}

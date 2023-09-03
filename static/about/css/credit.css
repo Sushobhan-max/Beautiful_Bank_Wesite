@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sec1 img{
+    display: block;
+    height: 540px;
+    margin: auto;
+}

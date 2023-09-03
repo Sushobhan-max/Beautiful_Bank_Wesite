@@ -1,0 +1,17 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "this is an full fledge website with front-end as well as backend create for educational practice and job search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sushobhan Dastidar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2"
+  }
+}

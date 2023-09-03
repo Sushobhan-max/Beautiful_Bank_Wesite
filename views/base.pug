@@ -1,0 +1,69 @@
+doctype html
+html 
+    head 
+        title PDSD BANK
+        link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+        block style  
+    body 
+        nav.navbar
+            .logo
+                img(src='../static/img/logo.png', alt='')
+                h2.color
+                    | PD$D 
+                    br
+                    |  BANK
+            ul
+                li #[a.color(href='/') Home]
+                li #[a.color(href='/about') About]
+                li #[a.color(href='/features') Feature]
+                li #[a.color(href='/saving') Saving]
+                li #[a.color(href='/credit') Credit]
+                a(href="/signup" target="_blank")
+                    button.signup.color Sign Up
+                
+        block content 
+        block scripts 
+        section#forbg.background
+            div#about
+                .about-box
+                    .logo-about
+                        img(src='../static/img/logo.png', alt='')
+                        h2 Online Banking
+                    ul.about-ul
+                        li Check balances on accounts and view records of your transactions.
+                        li Pay bills automatically each month with easy-to-set-up auto payment.
+                        li Download or print statements for your tax or personal records.
+                        li Access your account 24/7.
+                    .icons-about
+                        i.fa.fa-facebook.icon-about
+                        i.fa.fa-instagram.icon-about
+                        i.fa.fa-times.icon-about
+                        i.fa.fa-whatsapp.icon-about
+                .about-box
+                    a(href='#') About
+                    .text-section
+                        h2 Contact Us
+                        h2 About Us
+                        h2 About Cards
+
+                .about-box
+                    a(href='#') Useful Links
+                    .text-section
+                        h2 Internet Banking
+                        h2 ATM and branch locator
+                        h2 Help and support
+                .about-box
+                    a(href='#') Other Links
+                    .text-section
+                        h2 COnditions of Access
+                        h2 Policies
+                        h2 Notices
+                .about-box
+                    a(href='#') Other
+                    .text-section
+                        h2 Terms
+                        h2 Privacy
+                        h2 Cookies
+
+            footer 
+                h2 &copy; 2023-2024 All Rights Reserved By Sushobhan Dastidar
